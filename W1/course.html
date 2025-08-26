@@ -277,9 +277,53 @@
             </form>
         </li>
         <li>
+            <h1>Input file</h1>
+            <form action="inputfile.php">
+                <p>Avt</p>
+                <input type="file" name="avt" accept=".jpg, .png, .jpeg">
+
+            </form>
+        </li>
+        <li>
+            <h1>Fieldset</h1>
+            <p>Gom vùng thông tin</p>
+            <p>viết tiêu đề bằng tag legend</p>
+            <form action="fieldset.php">
+                <fieldset>
+                <legend>Thông tin cá nhân</legend>
+                <label for="nhapthongtin.php">Họ và tên</label>
+                <input type="text" value="" placeholder="Nhập họ và tên"><br><br>
+                <label for="nhapthongtin.php">Ngày / Tháng / Năm sinh</label>
+                <input type="date" value="dd/mm/yyyy"><br><br>
+
+                <p>datetime-local</p>
+                <label for="nhapthongtin.php">Dùng datetime-local</label>
+                <input type="datetime-local" value=""><br><br>
+
+                <p>time</p>
+                <label for="nhapthongtin.php">Dùng time</label>
+                <input type="time" value=""><br><br>
+
+                <h5> Email</h5>
+                <input type="email" value="" placeholder="Nhập email"><br><br>
+                <button type="submit">Gửi</button>
+
+                <h5>Telephone</h5>
+                <input type="tel" value="" placeholder="Nhập số điện thoại"><br><br>
+                <button type="submit">Gửi</button>
+                </fieldset>
+            </form>
+        </li>
+        <li>
             <h1>Ví dụ tổng hợp</h1>
             <form action="tonghop.php">
-                <label for="tonghop.php">Họ và tên</label>
+                <fieldset>
+                <legend>Thông tin cá nhân</legend>
+                                    <label for="tonghop.php">Họ và tên</label>
+                <br><br>
+
+                <label for="tonghop.php">Chọn avatar</label>
+                <input type="file" name="avatar" accept=".jpg, .png, .jpeg"><br><br>
                 <input type="text" value="" placeholder="Nhập họ và tên" required autofocus><br><br>
                 <label for="tonghop.php">Ngày / Tháng / Năm sinh</label>
                 <input type="datetime-local" value="DD/MM/YYYY" required><br><br>
@@ -320,6 +364,8 @@
                 <br>
                 <button type="submit">Gửi</button>
                 <button type="reset">Nhập lại</button>
+                </fieldset>
+            </form>
         </li>
 
     </ol>
