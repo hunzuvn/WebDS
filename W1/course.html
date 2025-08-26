@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web đầu tiên</title>
+</head>
+<body link="lightblue" vlink="green" >
+    <strong>Extention:Visbug</strong>
+    <p>Chào mừng bạn đến với trang web đầu tiên của tôi!</p>
+    <img src="https://photo.znews.vn/w1920/Uploaded/mdf_eioxrd/2021_07_06/2.jpg" alt="ảnh" usemap="#map1" width="300" height="200">
+    <a href="https://phenikaa-uni.edu.vn">Phenikaa-uni</a>
+    <font color="white" face="Times New Roman">Đây là thẻ font</font>
+    <br>
+    <font face="arial" size="20" color="red"> Biểu thị font với size 20 </font>
+    <map name="map1">
+        <area shape="rect" coords="0,0,300,00" href="https://phenikaa-uni.edu.vn">
+        <area shape="circle" coords="150,100,50" href="https://qldt.phenikaa-uni.edu.vn">
+    </map>
+    <a href="https://www.w3schools.com/html/html_links.asp">Phenikaa-uni</a>
+    <!-- ctrl / -->
+    <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_map2">ah</a>
+    <!-- header, nav, section, article, aside,footer -->
+     <header>
+        <h1>HTML5</h1>
+     </header>
+     <nav>
+        <ul>
+            <li><a href="https://www.w3schools.com/html/default.asp">Trang chủ</a></li>
+            <li><a href="https://www.w3schools.com/html/html_intro.asp">Giới thiệu</a></li>
+            <li><a href="https://www.w3schools.com/html/html_elements.asp">Các phần tử HTML</a></li>
+            <li><a href="https://www.w3schools.com/html/html_attributes.asp">Thuộc tính HTML</a></li>
+        </ul>
+     </nav>
+     <section>
+        <article>
+            <h2 align="center">Giới thiệu về HTML</h2>
+            <p align="justify">HTML (HyperText Markup Language) là ngôn ngữ đánh dấu tiêu chuẩn để tạo trang web. Nó cung cấp cấu trúc cơ bản cho các tài liệu trên web.</p>
+            <p>HTML (HyperText Markup Language) là ngôn ngữ đánh dấu tiêu chuẩn để tạo trang web. Nó cung cấp cấu trúc cơ bản cho các tài liệu trên web.</p>
+        </article>
+        <aside>
+            <h3>Thông tin thêm</h3>
+            <!-- phân đoạn dùng hr -->
+             <hr>
+            <p>HTML được sử dụng rộng rãi trong phát triển web và là nền tảng cho các công nghệ web khác như CSS và JavaScript.</p>
+        </aside>
+     </section>
+     <!-- nhân bản nhanh alt shift và phím pgdn -->
+
+     <!-- danh sách -->
+      <h3>Danh sách không thứ tự</h3>
+      <ul type="#">
+        <li>disc</li>
+        <br>
+        <ul type="disc">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul>
+        <li>square </li>
+        <br>
+        <ul type="square">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul>
+        <li>circle</li>
+        <br>
+        <ul type="circle">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul>
+        <li>none</li>
+      </ul>
+
+      <h3>Danh sách có thứ tự</h3>
+      <ol>
+        <li>A</li>
+        <ol type="A">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ol>
+        <li>a</li>
+        <ol type="a">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ol>
+        <li>I</li>
+        <ol>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ol>
+        <li>i</li>
+        <ol>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ol>
+      </ol>
+      <!-- cú pháp nhanh ol*3>li*3{nội dung} -->
+
+
+      <map name="map2">
+
+      </map>
+      <img src="../Photos/menu-1.jpg" alt="ảnh nền" usemap="#map2" width="50%" height="50%">
+      <!-- % thì chỉ cần width, kích thước mới cần width (cần thiết thì sửa height) -->
+       <p>Border để tạo viền</p>
+       <p> Ví dụ: img src="../Photos/img6.jpg" alt="ảnh nền"  width="20%" <mark>style="border: 5px solid red;"</mark>"</p>
+        <img src="../Photos/img6.jpg" alt="ảnh nền"  width="20%" style="border: 5px solid red;">
+
+        <p>Tiến trình</p>
+        <p>"ví dụ: progress value="70" max="100">/progress"</p>
+        <label for="prog1">Lập trình C</label>
+        <br>
+        <progress class="prog1" id="prog1" value="70" max="100">Lập trình C</progress>
+        <br>
+        <label for="prog2">Lập trình Py</label>
+        <br>
+        <progress class="prog2" value="30" max="100">Lập trình py</progress>
+
+        <h3>Bảng (table) tr là hàng (row), td là cột </h3>
+        <table>
+            <tr>
+                <td>Stt</td>
+                <td>họ tên</td>
+                <td>ngày</td>
+                <td>năm</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>a</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>b</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+
+    <h3>Tạo form</h3>
+    <ol >
+        <li>
+            <h2>Form Nhập liệu input type value </h2>
+            <form action="xuly.php">
+                <label for="xuly.php">Username</label>
+                <input type="text" value="username"><br><br>
+                <label for="xuly.php">Password</label>
+                <input type="password" value="pass">
+            </form>
+
+
+            <h4>Placeholder html_attributes</h4>
+            <h5>Hiển thị trong ô (> value )</h5>
+            <input type="text" value="" placeholder="Nhập họ và tên"><br><br>
+            <h5>Đặt size html_attributes</h5>
+            <label for="">size 50</label><br>
+            <input type="text" value="" placeholder="Nhập họ và tên" size="50"><br><br>
+            <label for="">size 30</label><br>
+            <input type="text" value="" placeholder="Nhập họ và tên" size="30"><br><br>
+
+
+        </li>
+
+        <li>
+            
+            <h2>Form thuộc tính khác </h2>
+            <form action="chosecolor.php">
+                Select your favorite color:
+                <input type="color" value="#53E4D8">
+            </form>
+            <form action="range.php">
+                <p> input type=range name=... min=... max =...</p>
+                <input type="range" name="points" min="0" max="100" value="0">
+                <button type="submit">Gửi</button>
+            </form>
+
+        </li>
+        <li>
+            <h2>Form Information</h2></p>
+            <form action="nhapthongtin.php">
+                <label for="nhapthongtin.php">Họ và tên</label>
+                <input type="text" value="" placeholder="Nhập họ và tên"><br><br>
+                <label for="nhapthongtin.php">Ngày / Tháng / Năm sinh</label>
+                <input type="date" value="dd/mm/yyyy"><br><br>
+
+                <p>datetime-local</p>
+                <label for="nhapthongtin.php">Dùng datetime-local</label>
+                <input type="datetime-local" value=""><br><br>
+
+                <p>time</p>
+                <label for="nhapthongtin.php">Dùng time</label>
+                <input type="time" value=""><br><br>
+
+                <h5> Email</h5>
+                <input type="email" value="" placeholder="Nhập email"><br><br>
+                <button type="submit">Gửi</button>
+
+                <h5>Telephone</h5>
+                <input type="tel" value="" placeholder="Nhập số điện thoại"><br><br>
+                <button type="submit">Gửi</button>
+            </form>
+        </li>
+        <li>
+            <h2>Auto Focus</h2>
+            <h4>Dùng để đăng nhập nhanh á</h4>
+            <p>Muốn thẻ nào auto fc thì dùng attribute autofocus</p>
+            <form action="nhapthongtin.php"></form>
+            <input type="text" value="" placeholder="Nhập họ và tên"><span>autofocus</span><br><br>
+            <button type="submit">Gửi</button>
+
+        </li>
+        <li>
+            <h2>Thuộc tính required (yêu cầu) </h2>
+            <p>Yêu cầu điền thông tin không để trống</p>
+            <form action="nhapthongtin.php">
+                <input type="text" value="" placeholder="Nhập họ và tên" required><br><br>
+                <input type="password" value="" placeholder="Nhập mật khẩu" required><br><br>
+                <button type="submit">Gửi</button>
+            </form>
+        </li>
+        <li>
+            <h2>Check box</h2>
+            <form action="chosesomething.php">
+                <label for="chosesomething.php">Chọn môn học</label><br>
+                <input type="checkbox" name="subject" value="Toán">Toán
+                <br>
+                <input type="checkbox" name="subject" value="Lý">Lý
+                <br>
+                <input type="checkbox" name="subject" value="Hóa">Hóa
+                <br>
+                <input type="checkbox" name="subject" value="Sinh">Sinh
+                <br>
+                <p>***Note 7.</p>
+            </form>
+        </li>
+        <li>
+            <h2>Radio attribute</h2>
+            <form action="radio.php">
+                <label for="radio.php">Chọn giới tính</label><br>
+                <input type="radio" name="gender" value="male">Nam
+                <input type="radio" name="gender" value="female">Nữ<br>
+                <button type="submit">Gửi</button>
+                <button type="reset">Reset</button>
+            </form>
+            <p>Vấn đề chỉ được chọn 1 trong 2 thì dùng thuộc tính "name" cùng giá trị trong radio khác checkbox có thể chọn tất cả</p>
+                    <li>
+            <h1>Combo box or Drop down list</h1>
+            <p>thêm thuộc tính selected để ưu tiên sl nhanh</p>
+            <form action="combobox.php">
+                <label for="combobox.php">Chọn quốc gia</label>
+                <select name="country" id="country">
+                    <option value="vn">Việt Nam</option>
+                    <option value="us">Mỹ</option>
+                    <option value="fr">Pháp</option>
+                    <option value="jp">Nhật Bản</option>
+                    <option value="kr">Hàn Quốc</option>
+                </select>
+                <button type="submit">Gửi</button>
+            </form>
+        </li>
+        <li>
+            <h2>Khu vực text</h2>
+            <form action="textarea.php">
+                Thông tin liên hệ:
+                <br>
+                <textarea name="contact" rows="30" cols="50" placeholder="Nhập thông tin liên hệ"></textarea>
+                <br>
+                <button type="submit">Gửi</button>
+            </form>
+        </li>
+        <li>
+            <h1>Ví dụ tổng hợp</h1>
+            <form action="tonghop.php">
+                <label for="tonghop.php">Họ và tên</label>
+                <input type="text" value="" placeholder="Nhập họ và tên" required autofocus><br><br>
+                <label for="tonghop.php">Ngày / Tháng / Năm sinh</label>
+                <input type="datetime-local" value="DD/MM/YYYY" required><br><br>
+                <label for="tonghop.php">Chọn giới tính</label><br>
+                <input type="radio" name="gender" value="male">Nam
+                <input type="radio" name="gender" value="female">Nữ<br>
+                <br>
+                <label for="tonghop.php">Chọn tỉnh thành phố</label><br>
+                <select name="tinhthanh" id="#">
+                    <option value="hn">Hà Nội</option>
+                    <option value="hcm">Hồ Chí Minh</option>
+                    <option value="dn">Đà Nẵng</option>
+                    <option value="hp">Hải Phòng</option>
+                    <option value="ct">Cần Thơ</option>
+                    <option value="tb" selected>Thái Bình</option>
+                </select>
+                <br>
+                <label for="tonghop.php">Màu yêu thích</label>
+                <label for="tonghop.php">Màu yêu thích</label><br>
+                <input type="color" value="#53E4D8"><br><br>
+                <label for="tonghop.php">Chọn môn học</label><br>
+                <input type="checkbox" name="subject" value="Toán">Toán
+                <br>
+                <input type="checkbox" name="subject" value="Lý">Lý
+                <br>
+                <input type="checkbox" name="subject" value="Hóa">Hóa
+                <br>
+                <input type="checkbox" name="subject" value="Sinh">Sinh
+                <br>
+                <input type="checkbox" name="subject" value="Anh">Anh
+                <br>
+                <br>
+                <input type="email" value="" placeholder="Nhập email" required><br><br>
+                <input type="tel" value="" placeholder="Nhập số điện thoại" required><br><br>
+                <label for="tonghop.php">Thông tin liên hệ:</label>
+                <br>
+                <textarea name="contact" rows="10" cols="30" placeholder="Nhập thông tin liên hệ"></textarea>
+                <br>
+                <button type="submit">Gửi</button>
+                <button type="reset">Nhập lại</button>
+        </li>
+
+    </ol>
+</body>
+</html>
