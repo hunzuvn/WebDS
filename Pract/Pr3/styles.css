@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+.side {
+    width: 1200px;
+    height: 210px;
+    background-color: lightgrey;
+    display: flex;
+    
+}
+
+.item{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 0.5rem;
+    /* background-color: rgb(31, 133, 167); */
+}
+
+.item1 {
+    flex-grow: 1;
+    height: 100%;
+    hr{
+        border: 2px solid rgb(7, 148, 176);
+    }
+} 
+
+.item2 {
+    flex-grow: 1;
+    height: 100%;
+    hr{
+        border: 2px solid rgb(141, 230, 24);
+    }
+}
+
+.item3 {
+    flex-grow: 1;
+    height: 100%;
+    hr{
+        border: 2px solid rgb(255, 78, 202);
+    }
+}
+
+.tit{
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.593);
+    height: 80px;
+    padding-top: 15px;
+    padding-right: 35px;
+    padding-left: 20px;
+    position: relative;
+    z-index: 99;;
+    top: -100px; 
+    /* chỗ này em làm mãi nó cũng không được thầy ạ, em phải làm thành dấu -, em biết là sai công thức vẫn đúng kết quả nhưng không biết sai chỗ nào */
+}
+
+.tit p{
+    color: white;
+    text-align: justify;
+    font-size: 14px;
+    
+}
+
+.tit hr{
+    margin-top: 10px;
+    width: 15%;
+}
+
+.photo img{
+    width: 100%;
+    height: 210px;
+    
+    border-radius: 0.5rem;
+}
+
+

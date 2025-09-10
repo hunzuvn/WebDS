@@ -1,0 +1,181 @@
+/* 1500, 75, 310 , bot50, top 20 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+section {
+    width: 1600px;
+    height: 485px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topic {
+    width: 1500px;
+    height: 75px;
+    border: 1px solid rgb(33, 214, 227);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+
+}
+
+.content {
+    width: 1500px;
+    height: 310px;
+    border: 1px solid rgb(33, 214, 227);
+    border-top: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+}
+
+.photo{
+    margin-left: 30px;
+    width: 175px;
+    height: 240px;
+    overflow: hidden;
+
+}
+.prod1 img{
+    width: 170px;
+    height: 240px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.prod2 img{
+    width: 175px;
+    height: 239px;
+    object-fit: cover;
+    object-position:  center;
+}
+
+.prod3 img{
+    width: 170px;
+    height: 239px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.btn{
+    text-transform: uppercase;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(227, 94, 33);
+    border-radius: 1rem;
+    font-size: 17px;
+    text-align: center;
+    padding: 7px;
+}
+
+.pc1 {
+    color: rgb(255, 37, 37);
+    font-size: 24px;
+}
+
+
+.pc2 {
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+}
+
+.prod a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.prod {
+    margin-top: 20px;
+    height: 243px;
+    margin-left: 15px;
+    position: relative;
+    flex-basis: 33%;
+}
+
+.badge {
+    color:aliceblue;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: 'sans-serif';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tit {
+    font-size: 22px;
+    width: 240px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: black;
+}
+
+.price {
+    width: 240px;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+
+.pc1 {
+    font-weight: bold;
+}
+
+.btn {
+
+    position: absolute;
+    bottom: 20px;
+    right: 90px; 
+    /* 240 - 150 */
+    color:rgb(255, 255, 255)
+}
+
+.topic {
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.topic a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.topic span {
+    font-size: 33px;
+}
+.c1 {
+    margin-left: 30px;
+    color: rgb(2, 84, 6);
+
+}
+
+.c2 {
+    color: rgb(0, 173, 61);
+}
+
