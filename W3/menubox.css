@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.menu-ngang {
+    display: flex;
+    background-color: rgb(6, 3, 138);
+    justify-content: right;
+}
+
+.menu-ngang>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-ngang>li{
+    list-style: none;
+    padding: 10px;
+    position: relative;
+}
+
+.menu-ngang>li:hover .menu-dropdown{
+    display: block;
+}
+.menu-dropdown {
+    background-color: black;;
+    position: absolute;
+    top:38.4px;
+    width: 180px;
+    display: none;
+}
+
+.menu-dropdown>li{
+    list-style: none;
+    padding: 10px 10px;
+    border-bottom: 1px solid white;
+}
+
+.menu-dropdown>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-dropdown>li:hover {
+    background-color: rgb(148, 147, 196);
+}
+
+ion-icon {
+    color: white;
+}
